@@ -1,0 +1,14 @@
+com/ecomshop/MainApplication.java
+ com.ecomshop.MainApplication
+ com.ecomshop.MainApplication$1
+com/ecomshop/BuildConfig.java
+ com.ecomshop.BuildConfig
+com/ecomshop/ReactNativeFlipper.java
+ com.ecomshop.ReactNativeFlipper
+ com.ecomshop.ReactNativeFlipper$1
+ com.ecomshop.ReactNativeFlipper$2
+ com.ecomshop.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/ecomshop/MainActivity.java
+ com.ecomshop.MainActivity

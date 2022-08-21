@@ -1,0 +1,6 @@
+{
+  "otpvarify": "https://api.groupick.in/api/v1/auth/otp/verify/",
+  "login": "https://api.groupick.in/api/v1/auth/login/",
+  "signup": "https://api.groupick.in/api/v1/auth/signup/",
+  "categories": "https://api.groupick.in/api/v1/categories/"
+}

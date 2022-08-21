@@ -1,0 +1,373 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ecomshop"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:3:3-75
+11-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:3:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:2:3-64
+12-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:4:3-63
+13-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:4:20-61
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:5:3-77
+14-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:5:20-75
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:6:3-78
+15-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:6:20-76
+16
+17    <queries>
+17-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:7:3-13:13
+18        <intent>
+18-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:8:5-12:14
+19            <action android:name="android.intent.action.VIEW" />
+19-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:9:7-58
+19-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:9:15-56
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:10:7-67
+21-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:10:17-65
+22
+23            <data android:scheme="https" />
+23-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:11:7-37
+23-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:11:13-35
+24        </intent>
+25        <intent>
+25-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-13:18
+26            <action android:name="android.media.action.IMAGE_CAPTURE" />
+26-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-73
+26-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:21-70
+27        </intent> <!-- Query open documents -->
+28        <intent>
+28-->[:expo-file-system] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-21:18
+29            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+29-->[:expo-file-system] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-79
+29-->[:expo-file-system] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:21-76
+30        </intent>
+31        <intent>
+31-->[:expo-image-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-27:18
+32
+33            <!-- Required for picking images from the camera if targeting API 30 -->
+34            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" />
+34-->[:expo-image-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-80
+34-->[:expo-image-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:21-77
+35        </intent>
+36        <intent>
+36-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:12:9-18:18
+37            <action android:name="android.intent.action.VIEW" />
+37-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:9:7-58
+37-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:9:15-56
+38
+39            <data
+39-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:11:7-37
+40                android:mimeType="*/*"
+41                android:scheme="*" />
+41-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:11:13-35
+42        </intent>
+43        <intent>
+43-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:19:9-28:18
+44            <action android:name="android.intent.action.VIEW" />
+44-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:9:7-58
+44-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:9:15-56
+45
+46            <category android:name="android.intent.category.BROWSABLE" />
+46-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:10:7-67
+46-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:10:17-65
+47
+48            <data
+48-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:11:7-37
+49                android:host="pay"
+50                android:mimeType="*/*"
+51                android:scheme="upi" />
+51-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:11:13-35
+52        </intent>
+53        <intent>
+53-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:29:9-31:18
+54            <action android:name="android.intent.action.MAIN" />
+54-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:22:9-60
+54-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:22:17-58
+55        </intent>
+56        <intent>
+56-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:32:9-36:18
+57            <action android:name="android.intent.action.SEND" />
+57-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:33:13-65
+57-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:33:21-62
+58
+59            <data android:mimeType="*/*" />
+59-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:11:7-37
+60        </intent>
+61    </queries>
+62
+63    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required for picking images from camera directly -->
+63-->[com.facebook.flipper:flipper:0.54.0] /Users/everythingapple/.gradle/caches/transforms-3/62ece1a98ef095db320a1cbbfb42e6fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+63-->[com.facebook.flipper:flipper:0.54.0] /Users/everythingapple/.gradle/caches/transforms-3/62ece1a98ef095db320a1cbbfb42e6fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+64    <uses-permission android:name="android.permission.CAMERA" /> <!-- Include required permissions for Google Maps API to run. -->
+64-->[:expo-image-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
+64-->[:expo-image-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-62
+65    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+65-->[com.google.android.gms:play-services-maps:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/be2f60d3ca5e09744cd4e8e129d788fd/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+65-->[com.google.android.gms:play-services-maps:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/be2f60d3ca5e09744cd4e8e129d788fd/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+66
+67    <uses-feature
+67-->[com.google.android.gms:play-services-maps:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/be2f60d3ca5e09744cd4e8e129d788fd/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+68        android:glEsVersion="0x00020000"
+68-->[com.google.android.gms:play-services-maps:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/be2f60d3ca5e09744cd4e8e129d788fd/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+69        android:required="true" />
+69-->[com.google.android.gms:play-services-maps:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/be2f60d3ca5e09744cd4e8e129d788fd/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+70
+71    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+71-->[com.android.installreferrer:installreferrer:1.0] /Users/everythingapple/.gradle/caches/transforms-3/d827d8da1c6b9e194ac984f1783f9c96/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+71-->[com.android.installreferrer:installreferrer:1.0] /Users/everythingapple/.gradle/caches/transforms-3/d827d8da1c6b9e194ac984f1783f9c96/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+72
+73    <application
+73-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:14:3-27:17
+74        android:name="com.ecomshop.MainApplication"
+74-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:14:16-47
+75        android:allowBackup="false"
+75-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:14:162-189
+76        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+76-->[androidx.core:core:1.6.0] /Users/everythingapple/.gradle/caches/transforms-3/63630bff35c5941492530625c68eb7d4/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+77        android:debuggable="true"
+78        android:icon="@mipmap/ic_launcher"
+78-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:14:81-115
+79        android:label="@string/app_name"
+79-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:14:48-80
+80        android:roundIcon="@mipmap/ic_launcher_round"
+80-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:14:116-161
+81        android:theme="@style/AppTheme"
+81-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:14:190-221
+82        android:usesCleartextTraffic="true" >
+82-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:14:222-257
+83        <meta-data
+83-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:15:5-131
+84            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+84-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:15:16-67
+85            android:value="https://exp.host/@muhammadsheraz492/ecom-shop" />
+85-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:15:68-129
+86        <meta-data
+86-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:16:5-93
+87            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+87-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:16:16-68
+88            android:value="44.0.0" />
+88-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:16:69-91
+89        <meta-data
+89-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:17:5-82
+90            android:name="expo.modules.updates.ENABLED"
+90-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:17:16-59
+91            android:value="true" />
+91-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:17:60-80
+92        <meta-data
+92-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:18:5-105
+93            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+93-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:18:16-80
+94            android:value="ALWAYS" />
+94-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:18:81-103
+95        <meta-data
+95-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:19:5-99
+96            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+96-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:19:16-79
+97            android:value="0" />
+97-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:19:80-97
+98
+99        <activity
+99-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:20:5-25:16
+100            android:name="com.ecomshop.MainActivity"
+100-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:20:15-43
+101            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+101-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:20:77-154
+102            android:label="@string/app_name"
+102-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:20:44-76
+103            android:launchMode="singleTask"
+103-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:20:155-186
+104            android:theme="@style/Theme.App.SplashScreen"
+104-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:20:230-275
+105            android:windowSoftInputMode="adjustResize" >
+105-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:20:187-229
+106            <intent-filter>
+106-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:21:7-24:23
+107                <action android:name="android.intent.action.MAIN" />
+107-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:22:9-60
+107-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:22:17-58
+108
+109                <category android:name="android.intent.category.LAUNCHER" />
+109-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:23:9-68
+109-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:23:19-66
+110            </intent-filter>
+111        </activity>
+112        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+112-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:26:5-81
+112-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:26:15-79
+113        <activity
+113-->[:react-native-razorpay] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-razorpay/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:86
+114            android:name="com.razorpay.CheckoutActivity"
+114-->[:react-native-razorpay] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-razorpay/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-57
+115            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+115-->[:react-native-razorpay] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-razorpay/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-83
+116            android:exported="true"
+116-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:51:13-36
+117            android:theme="@style/CheckoutTheme" >
+117-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:52:13-49
+118            <intent-filter>
+118-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:53:13-59:29
+119                <action android:name="android.intent.action.MAIN" />
+119-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:22:9-60
+119-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:22:17-58
+120
+121                <data
+121-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:11:7-37
+122                    android:host="rzp.io"
+123                    android:scheme="io.rzp" />
+123-->/Users/everythingapple/Desktop/SM/groupickApp/android/app/src/main/AndroidManifest.xml:11:13-35
+124            </intent-filter>
+125        </activity>
+126
+127        <provider
+127-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-27:20
+128            android:name="androidx.core.content.FileProvider"
+128-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-62
+129            android:authorities="com.ecomshop.provider"
+129-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-60
+130            android:exported="false"
+130-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-37
+131            android:grantUriPermissions="true" >
+131-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-47
+132            <meta-data
+132-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+133                android:name="android.support.FILE_PROVIDER_PATHS"
+133-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+134                android:resource="@xml/provider_paths" />
+134-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+135        </provider>
+136
+137        <activity
+137-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-31:72
+138            android:name="com.yalantis.ucrop.UCropActivity"
+138-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-60
+139            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+139-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-69
+140
+141        <provider
+141-->[:expo-file-system] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-34:20
+142            android:name="expo.modules.filesystem.FileSystemFileProvider"
+142-->[:expo-file-system] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-74
+143            android:authorities="com.ecomshop.FileSystemFileProvider"
+143-->[:expo-file-system] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-74
+144            android:exported="false"
+144-->[:expo-file-system] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-37
+145            android:grantUriPermissions="true" >
+145-->[:expo-file-system] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-47
+146            <meta-data
+146-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+147                android:name="android.support.FILE_PROVIDER_PATHS"
+147-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+148                android:resource="@xml/file_system_provider_paths" />
+148-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+149        </provider>
+150
+151        <activity
+151-->[:expo-image-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:9-33:59
+152            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+152-->[:expo-image-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-76
+153            android:theme="@style/Base.Theme.AppCompat" /> <!-- https://developer.android.com/guide/topics/manifest/provider-element.html -->
+153-->[:expo-image-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-56
+154        <provider
+154-->[:expo-image-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:9-43:20
+155            android:name="expo.modules.imagepicker.ImagePickerFileProvider"
+155-->[:expo-image-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-76
+156            android:authorities="com.ecomshop.ImagePickerFileProvider"
+156-->[:expo-image-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-75
+157            android:exported="false"
+157-->[:expo-image-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-37
+158            android:grantUriPermissions="true" >
+158-->[:expo-image-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-47
+159            <meta-data
+159-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+160                android:name="android.support.FILE_PROVIDER_PATHS"
+160-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+161                android:resource="@xml/image_picker_provider_paths" />
+161-->[:react-native-image-crop-picker] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+162        </provider>
+163
+164        <meta-data
+164-->[:expo-modules-core] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:89
+165            android:name="org.unimodules.core.AppLoader#react-native-headless"
+165-->[:expo-modules-core] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
+166            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+166-->[:expo-modules-core] /Users/everythingapple/Desktop/SM/groupickApp/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-86
+167
+168        <receiver
+168-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:40:9-46:20
+169            android:name="com.razorpay.RzpTokenReceiver"
+169-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:41:13-57
+170            android:exported="false" >
+170-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:42:13-37
+171            <intent-filter>
+171-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:43:13-45:29
+172                <action android:name="rzp.device_token.share" />
+172-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:44:17-65
+172-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:44:25-62
+173            </intent-filter>
+174        </receiver>
+175
+176        <meta-data
+176-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:62:9-64:58
+177            android:name="com.razorpay.plugin.googlepay_all"
+177-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:63:13-61
+178            android:value="com.razorpay.RzpGpayMerged" />
+178-->[com.razorpay:checkout:1.6.24] /Users/everythingapple/.gradle/caches/transforms-3/7c97ef870d32cf319957ab5359ade33e/transformed/jetified-checkout-1.6.24/AndroidManifest.xml:64:13-55
+179
+180        <activity
+180-->[com.google.android.gms:play-services-auth:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/26cd72fefabe8d1f7431f162c45c3c49/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+181            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+181-->[com.google.android.gms:play-services-auth:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/26cd72fefabe8d1f7431f162c45c3c49/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+182            android:excludeFromRecents="true"
+182-->[com.google.android.gms:play-services-auth:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/26cd72fefabe8d1f7431f162c45c3c49/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+183            android:exported="false"
+183-->[com.google.android.gms:play-services-auth:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/26cd72fefabe8d1f7431f162c45c3c49/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+184            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+184-->[com.google.android.gms:play-services-auth:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/26cd72fefabe8d1f7431f162c45c3c49/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+185        <!--
+186            Service handling Google Sign-In user revocation. For apps that do not integrate with
+187            Google Sign-In, this service will never be started.
+188        -->
+189        <service
+189-->[com.google.android.gms:play-services-auth:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/26cd72fefabe8d1f7431f162c45c3c49/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+190            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+190-->[com.google.android.gms:play-services-auth:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/26cd72fefabe8d1f7431f162c45c3c49/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+191            android:exported="true"
+191-->[com.google.android.gms:play-services-auth:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/26cd72fefabe8d1f7431f162c45c3c49/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+192            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+192-->[com.google.android.gms:play-services-auth:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/26cd72fefabe8d1f7431f162c45c3c49/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+193        <uses-library
+193-->[com.google.android.gms:play-services-maps:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/be2f60d3ca5e09744cd4e8e129d788fd/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+194            android:name="org.apache.http.legacy"
+194-->[com.google.android.gms:play-services-maps:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/be2f60d3ca5e09744cd4e8e129d788fd/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+195            android:required="false" />
+195-->[com.google.android.gms:play-services-maps:17.0.0] /Users/everythingapple/.gradle/caches/transforms-3/be2f60d3ca5e09744cd4e8e129d788fd/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+196
+197        <activity
+197-->[com.google.android.gms:play-services-base:17.5.0] /Users/everythingapple/.gradle/caches/transforms-3/69f91c6f7b91f64fcdf8b7f154a1acba/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+198            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+198-->[com.google.android.gms:play-services-base:17.5.0] /Users/everythingapple/.gradle/caches/transforms-3/69f91c6f7b91f64fcdf8b7f154a1acba/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+199            android:exported="false"
+199-->[com.google.android.gms:play-services-base:17.5.0] /Users/everythingapple/.gradle/caches/transforms-3/69f91c6f7b91f64fcdf8b7f154a1acba/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+200            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+200-->[com.google.android.gms:play-services-base:17.5.0] /Users/everythingapple/.gradle/caches/transforms-3/69f91c6f7b91f64fcdf8b7f154a1acba/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+201
+202        <meta-data
+202-->[com.google.android.gms:play-services-basement:17.6.0] /Users/everythingapple/.gradle/caches/transforms-3/ae72e08d8f977554640a57938629887a/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+203            android:name="com.google.android.gms.version"
+203-->[com.google.android.gms:play-services-basement:17.6.0] /Users/everythingapple/.gradle/caches/transforms-3/ae72e08d8f977554640a57938629887a/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+204            android:value="@integer/google_play_services_version" />
+204-->[com.google.android.gms:play-services-basement:17.6.0] /Users/everythingapple/.gradle/caches/transforms-3/ae72e08d8f977554640a57938629887a/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+205    </application>
+206
+207</manifest>
